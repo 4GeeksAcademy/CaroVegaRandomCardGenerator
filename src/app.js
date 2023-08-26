@@ -28,7 +28,7 @@ window.recarga = function recarga() {
   location.reload();
 };
 
-//setInterval(recarga, 3000);
+setInterval(recarga, 10000);
 window.redimensionar = function redimensionar() {
   let alto = document.getElementById("alto").value;
   let ancho = document.getElementById("ancho").value;
