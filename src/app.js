@@ -23,3 +23,7 @@ window.onload = function() {
   document.getElementById("suit1").innerHTML = randomsuit;
   document.getElementById("valueC").textContent = arrayRandom(valuesCard);
 };
+
+function reload() {
+  location.reload();
+}
