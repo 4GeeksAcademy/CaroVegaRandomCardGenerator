@@ -28,7 +28,7 @@
   </head>
   <body>
     <div class="container-fluid d-flex justify-content-center ">
-      <div class="card mt-5">
+      <div class="card mt-5" id="poker">
         <div class="row">
           <div class="col-5">
             <p id="suit" class="text-start suitCard">
@@ -51,7 +51,12 @@
       </div>
     </div>
     <div>
-      <button onclick="reload();">Reload</button>
+      <button onclick="recarga();">Reload</button>
+    </div>
+    <div>
+      Alto: <input type="number" id="alto" /> Ancho:
+      <input type="number" id="ancho" />
+      <button onclick="redimensionar();">redimensionar</button>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
