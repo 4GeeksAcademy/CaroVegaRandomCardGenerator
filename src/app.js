@@ -32,7 +32,7 @@ window.recarga = function recarga() {
     `<i class="bi bi-suit-club-fill"></i>`,
     `<i class="bi bi-suit-diamond-fill"></i>`
   ];
-  let valuesCard = ["A", "K", "Q", "j", 10, 9, 8, 7, 6, 5, 4, 3, 2];
+  let valuesCard = ["A", "K", "Q", "J", 10, 9, 8, 7, 6, 5, 4, 3, 2];
   let randomsuit = arrayRandom(suits);
 
   document.getElementById("suit").innerHTML = randomsuit;
