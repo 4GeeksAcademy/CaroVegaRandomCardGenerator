@@ -5,9 +5,6 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-let alto = document.getElementById("alto").value;
-let ancho = document.getElementById("ancho").value;
-
 function arrayRandom(array) {
   return array[Math.floor(Math.random() * array.length)];
 }
@@ -31,9 +28,11 @@ window.recarga = function recarga() {
   location.reload();
 };
 
-//setInterval(recarga, 10000);
+//setInterval(recarga, 3000);
 window.redimensionar = function redimensionar() {
-  //document.getElementById("poker").style.height = alto + "px";
-  //document.getElementById("poker").style.width = ancho + "px";
-  console.log(alto);
+  let alto = document.getElementById("alto").value;
+  let ancho = document.getElementById("ancho").value;
+
+  document.getElementById("poker").style.height = alto + "px";
+  document.getElementById("poker").style.width = ancho + "px";
 };
