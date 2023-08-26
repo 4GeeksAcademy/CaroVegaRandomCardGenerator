@@ -25,7 +25,7 @@ window.onload = function() {
 };
 
 window.recarga = function recarga() {
-  //location.reload();
+  location.reload();
   let suits = [
     `<i class="bi bi-suit-spade-fill"></i>`,
     `<i class="fa-solid fa-heart" style="color: #ff0000;"></i>`,
