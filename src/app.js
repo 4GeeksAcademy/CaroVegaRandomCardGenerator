@@ -33,6 +33,7 @@ window.recarga = function recarga() {
 
 //setInterval(recarga, 10000);
 window.redimensionar = function redimensionar() {
-  document.getElementById("poker").style.height = alto + "px";
-  document.getElementById("poker").style.width = ancho + "px";
+  //document.getElementById("poker").style.height = alto + "px";
+  //document.getElementById("poker").style.width = ancho + "px";
+  console.log(alto);
 };
